@@ -1,4 +1,4 @@
-/*class Waypoint {
+class Waypoint {
   final String nome;
   final double latitude;
   final double longitude;
@@ -9,4 +9,4 @@
     required this.longitude,
   });
 }
-*/
+
