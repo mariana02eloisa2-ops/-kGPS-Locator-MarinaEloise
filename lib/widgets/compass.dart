@@ -38,7 +38,7 @@ class CompassPainter extends CustomPainter {
     canvas.save();
 
     canvas.translate(center.dx, center.dy);
-  canvas.rotate(-(90 + heading) * pi / 180);
+    canvas.rotate(-(90 + heading) * pi / 180);
 
     final tickPaint = Paint()..strokeWidth = 2;
 
@@ -104,3 +104,4 @@ class CompassPainter extends CustomPainter {
     return oldDelegate.heading != heading;
   }
 }
+
